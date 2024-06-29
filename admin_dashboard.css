@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: flex;
+}
+
+/* -----header----- */
+
+.box {
+    position: relative;
+    width: 100%;
+    margin-left: 3%;
+}
+
+.box-header {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    padding: 10px 1rem;
+    border-radius: 10px;
+    width: 99%
+}
+
+.col h2 {
+    text-align: left;
+    color: black; 
+}
+
+/* -----user info container------ */
+
+.user_info-header {
+    margin-top: 2%;
+    margin-bottom: 1rem;
+    
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    width: 99%;
+    border-radius: 10px;
+    height: 40vh;
+}
+
+.details {
+    text-align: left;
+    gap: 1rem;
+}
+
+.user_info-col {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.user_info-row {
+    border-radius: 10px;
+    padding: 10px 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 37vh;
+    width: 31%;
+}
+
+.row {
+    padding-top: 0.5rem;
+    line-height: 2.5rem;
+}
+
+.right {
+    margin-top: 3%;
+}
+
+
+/* ------appointment, payment and feedback container------ */
+.appointment-container {
+    margin-top: 2%;
+    margin-bottom: 1rem;
+    padding: 10px 1rem;
+    width: 99%;
+    border-radius: 10px;
+    height: 70vh;
+}
+
+.appointment-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.appointment-col {
+    background: lightblue;
+    border-radius: 10px;
+    padding: 10px 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    width: 20%;
+    justify-content: center;
+    align-items:  center;
+}
+
+.appointment-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.appointment-col a, h3 {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 3%;
+}
+
+.lightred {
+    background: coral;
+}
+
+.lightblue {
+    background: cornflowerblue;
+}
+
+.lightgreen {
+    background: darkkhaki;
+}

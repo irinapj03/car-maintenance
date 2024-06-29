@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+/* --- header---- */
+
+.box {
+    position: relative;
+    width: 100%;
+    margin-left: 3%;
+}
+
+.box-header {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    padding: 10px 1rem;
+    background: #4682b4;
+    border-radius: 10px;
+    width: 99%
+}
+
+.col h2 {
+    text-align: left;
+    color: black;
+    
+}
+
+.edit-service a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1%;
+    width: 10%;
+    transform: translateX(450%);
+}
+
+a:hover {
+    color: white;
+}
+
+
+/*-------service container---------*/
+
+.service-container {
+    margin-top: 2%;
+    margin-bottom: 1rem;
+    padding: 10px 0;
+    width: 99%;
+    border-radius: 10px;
+}
+
+.service-header {
+    display: flex;
+    flex-basis: 50%;
+    flex: 30%;
+    flex-wrap: wrap;
+    margin: 10px 0; 
+    margin-top: 2%;  
+}
+
+.service-col {
+    background: lightblue;
+    border-radius: 10px;
+    padding: 10px 1rem;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+h3, p {
+    text-align: center;
+}
+
+.btn {
+    width: 40%;
+    height: 40px;
+    background: #001220;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    color: white;
+    margin-top: 3%;
+    margin-left: 30%;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}

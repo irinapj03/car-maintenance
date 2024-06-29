@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+
+/* ---appointment header---- */
+
+.box {
+    position: relative;
+    width: 100%;
+    margin-left: 3%;
+}
+
+.box-header {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    padding: 10px 1rem;
+    background: #4682b4;;
+    border-radius: 10px;
+    width: 99%
+}
+
+.col h2 {
+    text-align: left;
+    color: black;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 3%;
+}
+
+.wrapper-report {
+    margin-top: 5%;
+    margin-bottom: 1rem;
+    padding: 10px 0;
+    width: 99%;
+    height: 100vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-report-col {
+    width: 420px;
+    height: 70vh;
+    background: bisque;
+    border: 2px solid rgba(255,255,255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color: black;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin-bottom: 10%;
+    
+}
+
+.monthly-report-header {
+    padding: 10px;
+    border-radius: 12px;
+    margin-left: -5%;
+}
+
+.monthly-report-title {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4px;
+}
+
+.monthly-report-content-wrapper {
+    margin-top: 15%;
+    background-color: lightblue;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.monthly-report-content {
+    padding: 10px;
+    border-radius: 12px;
+    margin-left: -5%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.monthly-report-content-item {
+    font-style: monospace;
+}
+
+.monthly-report-content-item-amount {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.monthly-report-footer-wrapper {
+    margin-top: 20%;
+    width: 100%;
+    padding: 20px;
+}
+
+.monthly-report-content-footer {
+    padding: 10px;
+    border-radius: 12px;
+    margin-left: -5%;
+    display:flex;
+    justify-content: space-between;
+}
+    
+
+
+
+

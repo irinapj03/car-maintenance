@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.image {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url("appointment.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.image-overlay {
+    width: 100%;
+    height: 100vh;    
+    background-color: rgba(90, 120, 120, 0.5);
+    backdrop-filter: blur(10px);
+}
+.appointment-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-col-header {
+    flex-basis: 31%;
+    float: left;
+    margin-top: 20%;
+    margin-left: 3%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.wrapper-col-header h1 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+
+.wrapper-col-header p {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+
+.wrapper-col {
+    flex-basis: 31%;
+    width: 30%;
+    height: 70vh;
+    float: right;
+    background: lightblue;
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-top: 10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.wrapper-col h2 {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.wrapper-col .input-box {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    margin: 30px 0;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.input-box input  {
+    width: 100%;
+    height: 6vh;
+    border: 1px solid gray;
+    outline: transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+    color: black;
+    font-family: "Poppins", sans-serif;    
+    padding: 10px 16px 8px;
+}
+
+.input-box select  {
+    width: 100%;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+    padding: 4px 45px 3px 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn {
+    width: 100%;
+    height: 30px;
+    background: #001220;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    margin-top: 5%;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+

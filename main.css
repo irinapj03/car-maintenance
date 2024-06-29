@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+
+#home {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    color: white;
+    margin-top: 15%;
+    margin-left: 3%;
+    text-align: left;
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: white;
+}
+
+
+.image {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url("home2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(90, 120, 120, 0.6);     
+}
+
+#button {
+    width: 15%;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+    background-color: #001220;
+    color:  white;   
+    /*display: block;
+    margin: auto;*/
+    margin-left: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.slide-left {
+    animation: slideleft 1s linear forwards;
+}
+
+.about-container h1 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: cadetblue;
+    margin-top: 10%;
+    margin-left: 3%;
+    text-align: center;
+}
+
+.about-container p  {
+    color: black;
+    text-align: justify;
+}
+
+.about-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;   
+}
+
+.about-container img {
+    margin-top: 10%;
+    margin-left: 3%;
+}
+
+.about-container .about-img {
+    background-color: cadetblue;
+}
+
+.right-column {
+    width: 100%;
+    height: 100vh;  
+    /*background-color: lightblue;
+    /*background-image: url("layer2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-container {
+    width: 100%;
+    height: 30vh;  
+}
+
+.choose-container h2 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: cadetblue;
+    margin-top: 5%;
+    margin-left: 3%;
+    text-align: center;
+}
+
+.choose-container p {
+    color: black;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    padding: 1.5rem; 
+    margin-left: 3%; 
+    margin-top: 5%; 
+    width: 10%;
+}
+
+.contact-container {
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+}
+
+h3 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+h5 {
+    font-weight: lighter;
+    font-size: 15px;
+    color: white;
+    margin-top: 4.5%;
+}
+
+.contact-icons {
+    padding: 1.5rem; 
+    margin-left: 3%; 
+    margin-top: 2%; 
+    width: 6%;
+    height: 6%;
+}
+
+.icon-container {
+    display:flex;
+}
+
+
+
+
+
+@keyframes slideleft {
+    0% {
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+
+}
+
+@media  (max-width: 1100px) {
+    #home {
+        font-size: 50px;
+        margin-top: 50%;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    #button {
+        width: 25%;
+        height: 20px;
+        font-size: smaller;
+        top: 10px;
+    }
+
+    .image, .image-overlay {
+        height: 100vh;
+        align-items: left;
+    }
+
+    .icons {
+        width: 20%;
+    }
+    
+
+    
+}
